@@ -185,6 +185,8 @@ const ApplicationInfoPage = () => {
                         <Link
                           href={`https://github.com/strapi/strapi/releases/tag/${latestStrapiReleaseTag}`}
                           endIcon={<ExternalLink />}
+                          target="_blank"
+                          rel="noopener noreferrer"
                         >
                           {formatMessage({
                             id: 'Settings.application.link-upgrade',
